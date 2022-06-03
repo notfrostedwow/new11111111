@@ -8,6 +8,8 @@ elseif game.PlaceId == 7167319176 then --Chicago-Remastered
   loadstring(game:HttpGet('https://scripts.luawl.com/10815/ChicagoRemastered.lua'))()
 elseif game.PlaceId == 292439477 then --pf
   loadstring(game:HttpGet('https://scripts.luawl.com/10816/PhantomForces.lua'))()
+elseif game.PlaceId == 1962086868 then --toh
+  loadstring(game:HttpGet('https://scripts.luawl.com/10817/TowerOfHell.lua'))()
 else
     game.Players.LocalPlayer:Kick('Unsupported game')
 end
