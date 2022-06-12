@@ -10,6 +10,8 @@ elseif game.PlaceId == 292439477 then --pf
   loadstring(game:HttpGet('https://scripts.luawl.com/10816/PhantomForces.lua'))()
 elseif game.PlaceId == 1962086868 then --toh
   loadstring(game:HttpGet('https://scripts.luawl.com/10893/TOH.lua'))()
+elseif game.PlaceId == 5490351219 then
+  loadstring(game:HttpGet('https://scripts.luawl.com/10899/CLICKER.lua'))()
 else
     game.Players.LocalPlayer:Kick('Unsupported game')
 end
