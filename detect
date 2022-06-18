@@ -12,6 +12,8 @@ elseif game.PlaceId == 1962086868 then --toh
   loadstring(game:HttpGet('https://scripts.luawl.com/10893/TOH.lua'))()
 elseif game.PlaceId == 5490351219 then -- clicker
   loadstring(game:HttpGet('https://scripts.luawl.com/10899/CLICKER.lua'))()
+elseif game.PlaceId == 537413528 then -- BABFT
+  loadstring(game:HttpGet('https://scripts.luawl.com/10972/BUILDABOAT.lua'))()
 else
     game.Players.LocalPlayer:Kick('Unsupported game')
 end
