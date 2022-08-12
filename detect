@@ -7,6 +7,6 @@ elseif game.PlaceId == 7167319176 then --Chicago-Remastered
 elseif game.PlaceId == 9796315265 then --Streetz War
     loadstring(game:HttpGet('https://scripts.luawl.com/11805/StreetzWar.lua'))()
 else
-    warn('Script not supported')
+  loadstring(game:HttpGet('https://scripts.luawl.com/11948/Universal.lua'))()
 end
 
