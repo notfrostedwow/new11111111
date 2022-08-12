@@ -6,7 +6,7 @@ elseif game.PlaceId == 7167319176 then --Chicago-Remastered
   loadstring(game:HttpGet('https://scripts.luawl.com/10815/ChicagoRemastered.lua'))()
 elseif game.PlaceId == 9796315265 then --Streetz War
     loadstring(game:HttpGet('https://scripts.luawl.com/11805/StreetzWar.lua'))()
-else -- Universal
-    loadstring(game:HttpGet('https://scripts.luawl.com/11070/Universal.lua'))()
+else
+    warn('Script not supported')
 end
 
