@@ -1,12 +1,8 @@
 if game.PlaceId == 4779613061 then
   loadstring(game:HttpGet('https://scripts.luawl.com/10812/SouthLondon.lua'))()
-elseif game.PlaceId == 2788229376 then
-  loadstring(game:HttpGet('https://scripts.luawl.com/10813/DaHood.lua'))()
 elseif game.PlaceId == 7167319176 then
   loadstring(game:HttpGet('https://scripts.luawl.com/10815/ChicagoRemastered.lua'))()
 elseif game.PlaceId == 9796315265 then
     loadstring(game:HttpGet('https://scripts.luawl.com/11805/StreetzWar.lua'))()
-else
-  loadstring(game:HttpGet('https://scripts.luawl.com/11948/UniversalHub.lua'))()
 end
 
